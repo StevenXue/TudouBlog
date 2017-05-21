@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>杜小豆的编程小道</title>
+	<meta charset="utf-8">
+	<link rel="bookmark"  type="image/x-icon"  href="images/favicon.ico"/>
+  
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <!-- bootstrap css -->
+	<link href="http://cdn.bootcss.com/bootstrap/4.0.0-alpha/css/bootstrap.min.css" rel="stylesheet">
+  <!-- toggle switch css -->
+  <link rel="stylesheet" type="text/css" href="stylesheets/toggle-switch.css" />
+  <!-- font-awesome css -->
+  <link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+  <!-- this page css -->
+  <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+	
+	<!-- jquery js -->
+	<script src="http://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+	<!-- bootstrap js -->
+	<script src="http://cdn.bootcss.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div id="app" class="container">
+    <Logo></Logo>
+    <Searchbox trigger="articleCardSearchPage"></Searchbox>
+    <Navigation title="杜小豆的编程小道"></Navigation>
+    <Location name="location"></Location>
+    <Ad></Ad>
+    <Messagebox></Messagebox>
+    <Login></Login>
+    <Manage></Manage>
+    <Contact show="false"></Contact>
+    <About show="true"></About>
+    <Articlelist></Articlelist>
+    <Featurelist></Featurelist>
+    <Artiiframe></Artiiframe>
+    <Personal></Personal>
+    <Articlediscusslist></Articlediscusslist>
+    <Pagination parentshow="文章" childshow="全部" trigger="articleCardListPageChange" current="articleCurrentPage"></Pagination>
+    <Pagination parentshow="文章" childshow="搜索" trigger="articleCardSearchPage" current="articleSearchCurrentPage"></Pagination>
+    <Pagination parentshow="专题" childshow="全部" trigger="featureCardListPageChange" current="featureCurrentPage"></Pagination>
+    <Footerbar></Footerbar>
+    <script src="../javascripts/bin/index.bundle.js"></script>
+  </div>
+
+</body>
+</html>
