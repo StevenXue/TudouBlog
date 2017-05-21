@@ -1,0 +1,4 @@
+1.conf 文件夹下conf.js配置为自己的数据库和密码。。
+2.安装前端与后端所需模块---npm install 即可
+3.models 下的数据库导出文件可以自己执行或者利用网页执行
+4.server端的配置可参考ReadMe.md
