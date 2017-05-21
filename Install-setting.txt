@@ -1,4 +1,7 @@
-1.conf �ļ�����conf.js����Ϊ�Լ������ݿ�����롣��
-2.��װǰ����������ģ��---npm install ����
-3.models �µ����ݿ⵼���ļ������Լ�ִ�л���������ҳִ��
-4.server�˵����ÿɲο�ReadMe.md
+这个博客看起来真的集合很多前沿技术与一体，值得推荐！
+
+
+1.conf 文件夹下conf.js配置为自己的数据库和密码。。
+2.安装前端与后端所需模块---npm install 即可
+3.models 下的数据库导出文件可以自己执行或者利用网页执行
+4.server端的配置可参考ReadMe.md
