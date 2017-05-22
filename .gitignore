@@ -1,2 +1,7 @@
+#前端页面
 /public/javascripts/node_modules
+
+
+#服务端配置
+
 /node_modules
